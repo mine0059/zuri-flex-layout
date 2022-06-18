@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(../images/bg-intro-desktop.png);
+    font-size: 16px;
+    background-color: hsl(0, 100%, 74%);
+    color: white;
+}
+h1 {
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 10px;
+}
+p {
+    color: hsl(0, 0%, 100%, 0.75);
+}
+.container{
+    max-width: 1440px;
+}
+.real .container {
+    /* width: 50%; */
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.right-box {
+    margin-right: 20px;
+}
+.left-box {
+    margin-left: 20px;
+}
+#my-form {
+    padding: 2rem;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+}
+#my-form input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 12px;
+    border-radius: 5px;
+
+}
+.form-par {
+    color: hsl(249, 10%, 26%);
+    font-size: 0.7rem;
+    text-align: center;
+}
+.btn {
+    background-color: hsl(248, 32%, 49%);
+    margin-bottom: 15px;
+    padding: 15px 130px ;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+}
+#btnn {
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    border: none;
+
+}
+.span1 {
+    color: hsl(246, 25%, 77%);
+}
+.span2 {
+    color: hsl(0, 100%, 74%);
+}
+
+@media (max-width: 768px) {
+    body {
+        background-image: url(../images/bg-intro-mobile.png);
+    }
+    .real .container{
+
+        flex-direction: column;
+        text-align: center;
+    }
+    h1 {
+        padding-top: 50px;
+    }
+    .left-box {
+        margin-top: 60px;
+    }
+
+}
